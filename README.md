@@ -1,4 +1,4 @@
-# Hex-Patcher-Demo
+# Hex Patcher Demo
 This very basic application demonstrates one approach that can be used to patch a file. You will need to know the path of the file, the offset to the byte you want to patch, the byte that is currently there, and the new byte you watch to use in its place. For my tests, I used the free hex editor XVI32, which you can find here http://www.chmaas.handshake.de/delphi/freeware/xvi32/xvi32.htm#download in the download section. If you need to patch multiple files with the same new byte, but who have different offsets, then dynamically acquiring the offset using a pattern search would probably be more efficient.
 
 ## The Offset
